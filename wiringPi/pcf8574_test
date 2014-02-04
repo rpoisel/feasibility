@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export WIRINGPI_BASEDIR=/usr/local/src/wiringPi/wiringPi
+export LD_LIBRARY_PAT=${WIRINGPI_BASEDIR}
+
+./pcf8574_test.bin
+
+exit $?
