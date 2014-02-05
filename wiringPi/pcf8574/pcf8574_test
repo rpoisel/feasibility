@@ -3,6 +3,6 @@
 export WIRINGPI_BASEDIR=/usr/local/src/wiringPi/wiringPi
 export LD_LIBRARY_PATH=${WIRINGPI_BASEDIR}
 
-./pcf8574_test.bin
+./${0}.bin
 
 exit $?
